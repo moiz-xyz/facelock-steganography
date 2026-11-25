@@ -1,0 +1,35 @@
+@import "@fontsource-variable/inter";
+@import "@fontsource-variable/jetbrains-mono";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+
+html, body { background: #f4f7fb; color: #0f172a; }
+body { min-height: 100vh; -webkit-font-smoothing: antialiased; }
+
+.bg-aurora {
+  background:
+    radial-gradient(900px 500px at 10% -10%, rgba(8,145,178,.10), transparent 60%),
+    radial-gradient(800px 500px at 100% 0%, rgba(124,58,237,.08), transparent 60%),
+    #f4f7fb;
+}
+
+@layer components {
+  .card { @apply rounded-2xl border border-slate-200 bg-white/90 shadow-card backdrop-blur; }
+  .label { @apply text-[11px] font-semibold uppercase tracking-[.14em] text-slate-500; }
+  .input { @apply w-full rounded-xl border border-slate-300 bg-white px-4 py-2.5 text-sm text-slate-900 outline-none
+           placeholder:text-slate-500 focus:border-brand-400/60 focus:ring-2 focus:ring-brand-400/20 transition; }
+  .chip { @apply inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs font-medium; }
+}
+
+/* range input */
+input[type=range] { accent-color: #0891b2; }
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+
+.pixelated { image-rendering: pixelated; }

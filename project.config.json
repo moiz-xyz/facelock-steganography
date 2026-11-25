@@ -1,0 +1,30 @@
+{
+  "_comment": "Edit these values once. scripts/build_docs.py and scripts/build_ppt.py fill every document and the presentation from this file.",
+  "student_name": "[Student Name]",
+  "roll_no": "[Roll No]",
+  "university": "[University]",
+  "department": "[Department]",
+  "supervisor": "[Supervisor]",
+  "course": "Information Security - Final Year Project",
+  "project_title": "FaceLock Stego",
+  "project_subtitle": "Face-Recognition Protected Image Steganography System",
+  "submission_date": "December 2026",
+  "group_members": [
+    {
+      "name": "Abdul Moiz Khan",
+      "roll_no": "25F-DS-038"
+    },
+    {
+      "name": "Adeena Amajad",
+      "roll_no": "25F-DS-028"
+    },
+    {
+      "name": "Mahrukh",
+      "roll_no": "25F-DS-035"
+    },
+    {
+      "name": "Hadin Aslam",
+      "roll_no": "25F-DS-033"
+    }
+  ]
+}

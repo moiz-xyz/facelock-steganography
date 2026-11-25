@@ -1,0 +1,12 @@
+# FaceLock Stego backend - tested with Python 3.10-3.12 on Linux; all wheels are available for Windows/macOS.
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+numpy>=1.26
+pillow>=10.0
+opencv-contrib-python>=4.8      # YuNet + SFace face models (no dlib / no compiler needed)
+mediapipe>=0.10.14             # Face Landmarker for liveness (EAR + head pose)
+cryptography>=42
+argon2-cffi>=23.1
+scikit-image>=0.22             # SSIM
+scipy>=1.11                    # chi-square distribution

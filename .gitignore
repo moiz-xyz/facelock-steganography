@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+app/backend/.venv/
+.pytest_cache/
+# Runtime data (device key, profiles, logs, jobs, intruder photos) - never commit
+app/backend/data/
+# Node
+node_modules/
+app/frontend/.next/
+app/frontend/.env.local
+scripts/doctools/ppt_data.json
+# Build caches
+dataset/_raw/
+dataset/_e2e/
+*.part
+scripts/.certs/
+
+# Editor lock files / TS build cache
+.~lock.*
+*.tsbuildinfo
+
+# Not pushed to GitHub: documents, slides, dataset, downloadable models
+docs/
+presentation/
+dataset/
+app/backend/models/

@@ -1,0 +1,20 @@
+{
+  "format": "FaceLockVault",
+  "version": 1,
+  "vault_id": "1240ff6fa5f64fa48229b606878b0316",
+  "created_at": "2026-11-24T19:19:11+00:00",
+  "image_sha256": "3f47a33b0d7eeaffbcb41f496cbfdafddd3987a874f7a979a25b1256760e1450",
+  "face_lock": null,
+  "password_lock": {
+    "argon2": "$argon2id$v=19$m=65536,t=3,p=2$R5/vjCsC5iyjPHdRpnDTZg$JevP90M2OBrIYF+1ISctKzJ30Kv4VSj2eiRZoHKCPL4",
+    "kdf": {
+      "alg": "argon2id",
+      "t": 3,
+      "m": 65536,
+      "p": 2
+    },
+    "salt": "VF3IubAew3y82MleMvG6Mg==",
+    "nonce": "tRHq2W3+D3iMwc54",
+    "wrapped_dek": "PPw5H4eAmSriL43RP0SyTy3LtpQ7f606LK80qx3pVgZ2/ypFNUcEq7/Mv/H1/0SS"
+  }
+}
